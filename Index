@@ -1,0 +1,159 @@
+4.1.1 Data Types for Data Science
+
+4.1.1.1 Fundamendal Data Types
+-Manipulating lists
+-Looping over lists
+    looping over records
+    for loops
+    sorted() fxn
+-Using and Unpacking Tuples
+    zip() fxn
+    enumerate() fxn
+    type() fxn
+    .union() method
+    .intersection() method
+-Determining Set Differences
+    difference() method
+    set()
+    for loop
+    if statement
+
+4.1.1.2 Dictionaries
+-Creating and looping through Dictionaries
+    sorted()
+    slice notation
+-Safely finding by Key
+    get() method
+-Dealing with Nested Data
+    .keys() method
+-Adding and Extending Dictionaries
+    .update() method
+-Popping and Deleting from Dictionaries
+    .pop() method
+    del python instruction
+-Working with Dictionaries More Pythonically
+    .items() method
+-Checking Dictionaries for Data
+    in expression in a if statement
+-Reading a file using CSV reader
+    import csv
+    open()
+-Creating a Dictionary from a File
+    DictReader class
+    
+4.1.1.3 Collections Module
+-Using Counter on Lists
+    Counter
+-Finding Most Common Elements
+    .most_common() method
+-Creating Dictionaries of an Unknown Structure
+-Appending to a Key's value List
+    defaultdict
+-Working with ordered dictionaries
+    OrderedDict
+-Creating named tuples for storing data
+    namedtuple
+-Leveraging Attributes on namedtuples
+    .date() attribute
+    
+4.1.1.4 Handling Dates and Times
+-Strings to Date Times
+    .strptime() method
+    import datetime
+-Converting datetime object to a String
+    .strftime() method
+    .isoformat() method
+-Pieces of Time
+    from collections import defaultdict
+-Creating DateTime Objects
+    datetime.now() method
+    .utcnow() method
+-Timezones
+    from pytz import timezone
+    
+4.1.1.5 Answering Data Science Questions
+-Reading your data with CSV Reader and establishing your Data Containers
+    csv.reader() function
+    from collections import Counter
+    from datetime import datetime
+    Counter() object
+    from collections import defaultdict
+    .strptime() method
+-Reading your data with DictReader and establishing your Data Containers
+    .csv.DictReader()
+
+
+4.1.2 Python DataScience Tool Box Part 1
+
+4.1.2.1 Writing Your Own Functions
+-Strings in python
+    def funcname():
+-Single parameter functions
+    def funcname(poop)
+-Functions that return single values
+    replace print with return
+-Functions with multiple parameters
+    def funcname(poop1, poop2)
+-A brief intro to tuples
+    tuple unpacking
+-Functions that Return multiple values
+    tuple unpacking within a function
+
+4.1.2.2 Default Arguements and Variable length Arguements
+-The keyword global
+-Python's builtins scope
+    import builtins
+    dir(builtins)
+-Nested Functions I and II
+-The keyword nonlocal and nested functions
+-Functions with one default arguement
+-Functions with multiple default arguements
+-Functions with variable length arguments
+    *args
+-Functions with variable length keyword arguments
+    **kwargs
+    
+4.1.2.3 Lambda Functions
+-Map and lambda functions
+    map()function
+-Filter and lambda functions
+    filter() function
+-Reduce and lambda functions
+    reduce() function
+    from functools import reduce
+- Error handling with try-except
+    try:
+    except:
+-Error handling by raising an error
+    raise
+
+
+4.1.3 Intro to Data Visualation with Python
+
+4.1.3.1 Customizing Plots
+-Multiple plots on a single axis
+    plt.plot()
+    plt.show()
+-Using axes()
+    plt.axes()
+    plt.axes([xlo, ylo, width, height])
+-Using subplot()
+    plt.subplot(#rows, #columns, active sublot)
+    plt.tight_layout()
+    plt.title()
+-Using xlim() and ylim()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
